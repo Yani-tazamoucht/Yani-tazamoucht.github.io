@@ -1,0 +1,134 @@
+body {
+animation: mymove 10s ease infinite;
+  background-color: #A0A0A0; 
+    color: white;
+    text-align: center;
+}
+
+@keyframes mymove {
+  0% {
+    background-color: #00732C;
+  }
+  20% {
+    background-color: #FFED80;
+    }
+  40% {
+   background-color: #E50071;
+    }
+  60% {
+    background-color: #008BD2;
+    }
+  80% {
+    background-color: #EF7C00;
+    }
+  100% {
+    background-color: #00732C;
+    }
+  }
+
+h1 {
+ text-align: center; 
+   animation: myove 10s ease infinite;
+    background-color: white;
+    opacity: 0.7;
+    margin: 0% 30% 0% 30%;
+    padding: 2% 0% 2% 0%;
+border-radius: 10px 10px 10px 10px;
+}
+
+@keyframes myove {
+  0% {
+    color: #00732C;
+  }
+  20% {
+    color: #FFED80;
+    }
+  40% {
+    color: #E50071;
+    }
+  60% {
+    color: #008BD2;
+    }
+  80% {
+    color: #EF7C00;
+    }
+  100% {
+    color: #00732C;
+    }
+  }
+
+
+input {
+ width: 100px;
+    height: 100px;
+    border-color: transparent; 
+    color: black;
+    text-align: center;
+    border: 1px;
+    font-size: 200%;
+    margin: 0px 10px 10px 10px;
+    opacity: 0.7;
+    border-radius: 5px 5px 5px 5px;
+}
+
+@keyframes myve {
+  0% {
+    color: #00732C;
+  }
+  20% {
+    color: #FFED80;
+    }
+  40% {
+    color: #E50071;
+    }
+  60% {
+    color: #008BD2;
+    }
+  80% {
+    color: #EF7C00;
+    }
+  100% {
+    color: #00732C;
+    }
+  }
+
+h2 {
+ position: fixed;
+    left: 3px;
+    bottom: 0px;
+    font-size: 70%;
+}
+
+h3 {
+    position:fixed;
+ bottom: 280px;
+    left: 730px;
+    font-size: 300%;
+}
+
+hr {
+ margin: 10px 41% 10px 41%; 
+    border: 2px solid white;
+    color: white; 
+}
+
+button {
+ height: 40px;
+    width: 80px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
+    opacity: 0.7;
+    animation: myve ease 10s infinite;
+    border-color: transparent;
+    position:relative;
+}
+
+input.chiffre2 {
+    position: relative;
+ right: 50x
+}
+
+div {
+        position: relative;
+ right:65px;
+}

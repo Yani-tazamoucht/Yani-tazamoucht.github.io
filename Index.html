@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+	
+<html>
+<head>
+<title> Proportions - Calculateur </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <h1> Calculateur de proportions </h1>
+    <br>
+    <br>
+    <input type="number" id="chiffreun" value="0" class="chiffreun" required>
+    <input type="number" id="chiffretrois" value="0" class="chiffretrois" required>
+    <hr id="den">
+    <br>
+    <div>
+    <input type="number" id="chiffredeux" value="0" class="chiffredeux" required>
+    </div>
+    <h3 id="deno">?</h3>
+        <br>
+        <br>
+        <br>
+    <button onClick="myFunction()">  Calculer </button>
+    <h4 id="output"></h4>
+        <h2> fait par Ilyas Yani Tazamoucht du groupe 201</h2>
+</body>
+    <script>
+        function myFunction() {
+         var chiffre1 = document.getElementById('chiffreun').value;
+            var chiffre2 = document.getElementById('chiffredeux').value;
+            var chiffre3 = document.getElementById('chiffretrois').value;
+          var calcul = chiffre2 * chiffre3 / chiffre1;
+            document.getElementById("output").innerHTML ="Le dénominateur manquant est : " + calcul;
+            document.getElementById("deno").innerHTML =calcul;
+           return myFunction(calcul) ;
+        }
+    </script>
+</html>
